@@ -1,7 +1,3 @@
-# my-component
-
-[![npm package][npm-badge]][npm]
-
 # Carbon-Menus
 
 Carbon-Menus is a simple fixed location animation wrapper.
@@ -148,6 +144,3 @@ Common props you may want to specify include:
 - `gutter` - spacing between the elements
 - `items` - list of JSX.Elements
 - `animationDuration` - (optional) duration of the ease animation
-
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/carbon-menus
