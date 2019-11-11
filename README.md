@@ -1,6 +1,6 @@
 # Carbon-Menus
 
-# <a href="https://weakfinger.com/">Demo</a>
+# <a href="http://weakfinger.com/">Demo</a>
 
 Carbon-Menus is a simple fixed location animation wrapper.
 
