@@ -1,0 +1,6 @@
+.disdain-bottom-popup {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
