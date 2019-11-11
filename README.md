@@ -13,12 +13,20 @@ Features include:
 
 # Installation and usage
 
-The easiest way to use react-select is to install it from npm and build it into your app with Webpack.
-
 ```
 npm install carbon-menus
 or
 yarn add carbon-menus
+```
+
+```js
+import { BottomPopup } from 'carbon-menus';
+
+...
+
+render() {
+  return <BottomPopup open={this.state.open} gutter={40} items={this.items} />;
+}
 ```
 
 Then use it in your app:
@@ -66,7 +74,7 @@ import {
   faGlassCheers,
 } from '@fortawesome/free-solid-svg-icons';
 
-import { BottomPopup } from './../../src/index';
+import { BottomPopup } from 'carbon-menus';
 
 interface DemoProps {
   nada?: boolean;
