@@ -1,9 +1,9 @@
 import React, { CSSProperties } from "react";
-import { Point, BottomPopupProps, BottomPopupState } from "./defines";
+import { Point, BottomPopupProps, PopupState } from "./defines";
 //require("./index.css");
 //import "./index.css";
 
-class BottomPopup extends React.Component<BottomPopupProps, BottomPopupState> {
+class BottomPopup extends React.Component<BottomPopupProps, PopupState> {
   private positions: Array<Point> = new Array<Point>();
   private elementRefs: Array<HTMLDivElement | null> = new Array<HTMLDivElement | null>();
   private maxHeight: number = 0;

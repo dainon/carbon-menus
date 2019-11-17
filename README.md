@@ -150,7 +150,16 @@ class Demo extends Component<DemoProps, DemoState> {
 
 Common props you may want to specify include:
 
+## BottomPopup Props
+
 - `open` - opens the control
 - `gutter` - spacing between the elements
+- `items` - list of JSX.Elements
+- `animationDuration` - (optional) duration of the ease animation
+
+## LeftDial Props
+
+- `open` - opens the control
+- `radius` - radius the elements will be placed around the left side
 - `items` - list of JSX.Elements
 - `animationDuration` - (optional) duration of the ease animation

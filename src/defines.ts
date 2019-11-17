@@ -15,7 +15,14 @@ export interface BottomPopupProps {
   animationDuration?: number;
 }
 
-export interface BottomPopupState {
+export interface PopupState {
   mounted: boolean;
   toggle: boolean;
+}
+
+export interface LeftDialProps {
+  open: boolean;
+  items: Array<JSX.Element>;
+  radius: number;
+  animationDuration?: number;
 }

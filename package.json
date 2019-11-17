@@ -1,6 +1,6 @@
 {
   "name": "carbon-menus",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Menus with style",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -8,6 +8,8 @@
   "keywords": [
     "carbon",
     "menu",
+    "radial",
+    "animation",
     "transitions",
     "ReactJS",
     "TypeScript"
